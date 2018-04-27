@@ -1,0 +1,26 @@
+html{
+	height:95%;
+	width:95%;
+}
+body {
+	height:100%;
+	width:100%;
+	font-family: "Lato", sans-serif;
+}
+.table {
+	display: table;
+	height: 85%;
+	margin: 0 auto;
+}
+
+.table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.centered {
+	 border: 1px solid #ccc;
+	 display: block;
+	 padding: 10% 10% 10% 10%;
+	
+}
