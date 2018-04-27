@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+   <local-tx-datasource>
+      <jndi-name>DefaultDSNew</jndi-name>
+      <connection-url>jdbc:sqlserver://localhost:1433;databaseName=ProjectJB</connection-url>
+      <driver-class>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver-class>
+      <user-name>root</user-name>
+      <password>1234</password>
+      <min-pool-size>5</min-pool-size>
+      <max-pool-size>20</max-pool-size>
+      <idle-timeout-minutes>5</idle-timeout-minutes>
+   </local-tx-datasource>
+</datasources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+   <persistence-unit name="EjbComponentPU" transaction-type="JTA">
+      <!-- <non-jta-data-source>java:/DefaultDSNew</non-jta-data-source> -->
+       <jta-data-source>java:/DefaultDSNew</jta-data-source> 
+       <class>com.LogEntityBean</class>
+       <properties>
+       		
+       		<property name="hibernate.hbm2ddl.auto" value="update"/>
+       		
+       		<property name="hibernate.show_sql" value="true"/>
+       		<property name="hibernate.format_sql" value="true"/>
+       		
+       		<!-- 
+           <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"></property>
+           <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=ProjectJB"></property>
+           <property name="javax.persistence.jdbc.user" value="root"></property>
+           <property name="javax.persistence.jdbc.password" value="1234"></property>
+       		 -->
+       </properties>
+      
+   </persistence-unit>
+   
+</persistence>
